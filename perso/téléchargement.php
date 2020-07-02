@@ -1,5 +1,6 @@
 <?php
-$uploaddir = $_POST['statut'];
+$uploaddir1 = $_POST['statut'];
+$uploaddir = "../" . $uploaddir1 ;
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 
 echo $uploaddir;
